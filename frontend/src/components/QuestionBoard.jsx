@@ -16,7 +16,7 @@ const questionID = {
   3: "DifferentialCalculus2_901",
 };
 
-const Home = () => {
+const QuestionBoard = () => {
   const [questions, setQuestions] = useState([]);
   const [count, setCount] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -97,4 +97,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default QuestionBoard;
