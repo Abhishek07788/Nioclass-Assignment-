@@ -9,7 +9,7 @@ const getQuestions = (QuestionID) => {
   ).then((res) => res.json());
 };
 
-// -------- question id we add more --------
+// -------- questionIds, we can add more questionIds --------
 const questionID = {
   1: "AreaUnderTheCurve_901",
   2: "BinomialTheorem_901",
